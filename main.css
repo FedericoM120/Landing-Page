@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    padding-bottom: 50px;
 }
 
 .header-right {
@@ -9,7 +10,7 @@
     justify-content: space-between;
     gap: 15px;
     margin-top: 10px;
-    margin-right: 40px;
+    margin-right: 200px;
 }
 .header-right a {
     color: #F9FAF8;
@@ -40,8 +41,19 @@ h2 {
     max-width: 400px;
 }
 
+.left-card button {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    color: #F9FAF8;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 10px;
+    border-radius: 6px;
+}
+
 .image {
     width: 30vw;
     height: 20vh;
-    margin-right: 40px;
+    margin-right: 200px;
 }
