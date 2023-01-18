@@ -27,5 +27,21 @@ h2 {
 .section-one {
     display: flex;
     background-color: #1F2937;
+    justify-content: space-between;
 }
 
+.left-card {
+    color: #F9FAF8;
+    padding-left: 150px;
+    margin-right: 20px;
+}
+
+.left-card p {
+    max-width: 400px;
+}
+
+.image {
+    width: 30vw;
+    height: 20vh;
+    margin-right: 40px;
+}
