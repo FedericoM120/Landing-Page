@@ -131,5 +131,20 @@ h2 {
     color: #1F2937;
 }
 
+.section-four {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.blue-container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #3882F6;
+    width: 75%;
+    
+}
+
+
 
 
