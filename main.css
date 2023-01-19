@@ -57,3 +57,47 @@ h2 {
     height: 20vh;
     margin-right: 200px;
 }
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-two .header-section-two {
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+.main-info-section-two {
+    display: flex;
+    justify-content: center;
+}
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.subtext {
+    max-width: 100px;
+    text-align: left;
+}
+
+.main-info-section-two .card {
+    border: 1px solid rgb(105, 160, 212);
+    border-width: 3px;
+    border-radius: 4px;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
