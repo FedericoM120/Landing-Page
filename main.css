@@ -138,13 +138,45 @@ h2 {
 }
 
 .blue-container {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-color: #3882F6;
     width: 75%;
-    
+    border-radius: 6px;
 }
 
+.left-side-blue-container {
+    padding-left: 150px;
+    color: #E5E7Eb;
+}
+
+.left-side-blue-container h3 {
+    text-align: left;
+}
+
+.right-side-blue-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-side-blue-container button {
+    margin-top: 29px;
+    margin-right: 100px;
+    border-radius: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: transparent;
+    color: #E5E7Eb;
+    border-width: 2px;
+    border-color: white;
+}
 
 
 
